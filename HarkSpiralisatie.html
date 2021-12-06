@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div>
+    <h1>Hark spiralisatie</h1>
+    <p>
+      Amount of turns:
+      <input id="TurnCount" type="text" name="input1" value="6"></input>
+      <br>
+      Amount of drones:
+      <input id="DroneCount" type="text" name="input2" value="4"></input>
+      <br>
+      Zoek radius:
+      <input id="SearchRadius" type="text" name="input3" value="20"></input>
+      <br>
+      Battery life:
+      <input id="BatteryLife" type="text" name="input4" value="70"></input>
+    </p>
+    <button id="Explore" type="button" name="button1" onclick="drawspiral()" >Explore</button>
+    <button id="getCoord" type="button" name="button2" onclick="getCoord()" >Get Coordinates</button>
+    <br><br>
+    <canvas id="myCanvas" width="800" height="800" style="border:1px solid #c3c3c3;"></canvas>
+    </div>
+    <script src="HarkSpiralisatie.js"></script>
+  </body>
+</html>
